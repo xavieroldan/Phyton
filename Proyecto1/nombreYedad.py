@@ -14,8 +14,6 @@ if __name__ == '__main__':
         if age <= 5:
             print("Eres un bebé")
 
-                    
-
         else:
             a = 18 - age
             print("Lo siento: "+ name+ ": no puedes trabajar de "+ job+ " porque no eres mayor de edad. Te faltan "+ str(a) +" años.")
