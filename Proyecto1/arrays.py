@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     print("Escribe lo que quieras y pulsa enter.")
     print("=====================================")
-    print("Escribe 'salir' para salir")
+    print("Escribe \"salir\" para salir")
 
     while word.lower() != "salir":
 
@@ -33,10 +33,14 @@ if __name__ == '__main__':
 
     # Recorrer la lista y sacar cada línea por pantalla
 
+
     for i in range(0, len(lista)):
+
         print("Posición "+str(i)+" está la palabra: "+ lista[i])
 
     print("FIN")
+
+    for palabra in lista : print(palabra) # recorre el array y lo imprime completo
 
 
 
