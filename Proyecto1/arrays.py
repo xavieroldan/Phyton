@@ -30,7 +30,12 @@ if __name__ == '__main__':
         lista.append(word)
 
     lista.pop()
-    print(lista)
+
+    # Recorrer la lista y sacar cada línea por pantalla
+
+    for i in range(0, len(lista)):
+        print("Posición "+str(i)+" está la palabra: "+ lista[i])
+
     print("FIN")
 
 
