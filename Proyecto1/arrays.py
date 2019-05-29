@@ -29,6 +29,7 @@ if __name__ == '__main__':
         word = input("Escribe la palabra:")
         lista.append(word)
 
+    lista.pop()
     print(lista)
     print("FIN")
 
