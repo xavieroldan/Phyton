@@ -1,13 +1,13 @@
-#definir una función
+# definir una función
 # se hacen antes del main
 
-def sayMyName ():
-    name = input("Cuál es tu nombre?")
-    print("Hola "+name)
-
-def getMyName ():
-    name = input("Cuál es tu nombre?")
-    return name
+# def sayMyName ():
+#     name = input("Cuál es tu nombre?")
+#     print("Hola "+name)
+#
+# def getMyName ():
+#     name = input("Cuál es tu nombre?")
+#     return name
 
 def multTen():
     num = input("Dame un número:")
