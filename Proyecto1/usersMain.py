@@ -3,10 +3,16 @@ from Proyecto1.users import User
 
 if __name__ == '__main__':
 
-    user1 = User() # creo el objeto
+    user1 = User("Xavi",42,"mimail@gmail.com") # creo el objeto llamando a la función del constructor
 
-    user1.nombre = "Xavi" #defino los atributos
-    user1.edad = 42
-    user1.email = "mimail@gmail.com"
+    print(user1.name) #leo los atributos
 
-    print(user1.nombre) #leo los atributos
+    user1.printAge()
+
+    user2 = User("Pepito",56,"pepito@mail.com")
+
+    user2.printAge()
+
+
+
+
