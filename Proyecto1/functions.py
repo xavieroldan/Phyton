@@ -9,9 +9,17 @@ def getMyName ():
     name = input("Cuál es tu nombre?")
     return name
 
+def multTen():
+    num = input("Dame un número:")
+    output = float(num) * 10
+    return output
+
 if __name__ == '__main__':
 
-    sayMyName()
+    #sayMyName()
 
-    print("Cojo de getMyName: "+ getMyName())
+    #print("Cojo de getMyName: "+ getMyName())
+
+
+    print("Y el número es: "+ str(multTen()))
 
