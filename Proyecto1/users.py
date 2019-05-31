@@ -12,3 +12,10 @@ class User:
 
     def printAge(self):
         print("Tienes " + str(self.age) + " años.")
+
+    def isPlus18(self):
+        if self.age >= 18:
+            output = "es mayor de edad"
+        else:
+            output = "no es mayor de edad"
+        print(output)
