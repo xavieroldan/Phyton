@@ -13,11 +13,16 @@ def suma(num1, num2):
     output = num1 + num2
     return output
 
-
-
 if __name__ == '__main__':
         #
         # country = setCountry()
         # printCountry(country)
 
 #funcion suma: dado 2 números nos devuelve la suma de ambos
+
+    num1 = int(input("Dame un número:"))
+    num2 = int(input("Dame otro número:"))
+    result = str(suma(num1,num2))
+    print("La suma es: "+result)
+
+
