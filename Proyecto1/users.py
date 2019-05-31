@@ -19,3 +19,4 @@ class User:
         else:
             print("es menor de edad")
 
+# clase calculadora: passamos 2 numeros y sumar y dividir
