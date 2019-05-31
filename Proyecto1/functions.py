@@ -1,11 +1,17 @@
 #definir una función
 # se hacen antes del main
 
-def sayHello ():
-    name = input("Duál es tu nombre?")
+def sayMyName ():
+    name = input("Cuál es tu nombre?")
     print("Hola "+name)
+
+def getMyName ():
+    name = input("Cuál es tu nombre?")
+    return name
 
 if __name__ == '__main__':
 
-    sayHello()
+    sayMyName()
+
+    print("Cojo de getMyName: "+ getMyName())
 
