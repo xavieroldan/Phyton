@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     user2.printAge()
 
-    user2.isPlus18()
+    user2.isOver18()
 
 
 
